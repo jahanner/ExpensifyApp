@@ -49,8 +49,8 @@ export class ExpenseListFilters extends React.Component {
               value={this.props.filters.sortBy}
               onChange={this.onSortChange}
             >
-              <option value="date">Date</option>
-              <option value="amount">Amount</option>
+              <option value="date">Sort by: Newest</option>
+              <option value="amount">Sort by: Amount</option>
             </select>
           </div>
           <div className="input-group__item">
